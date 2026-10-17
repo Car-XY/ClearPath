@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "id": "clearpath-sample",
+  "name": "A little more room",
+  "createdAt": "2026-10-17T00:00:00.000Z",
+  "updatedAt": "2026-10-17T00:00:00.000Z",
+  "source": "demo",
+  "photos": [],
+  "room": {
+    "width": 6,
+    "depth": 5,
+    "height": 2.65,
+    "boundary": [
+      {
+        "x": 0,
+        "z": 0
+      },
+      {
+        "x": 6,
+        "z": 0
+      },
+      {
+        "x": 6,
+        "z": 5
+      },
+      {
+        "x": 0,
+        "z": 5
+      }
+    ],
+    "confirmedWidth": true,
+    "confirmedDepth": true,
+    "confirmedHeight": true,
+    "doors": [
+      {
+        "id": "entrance",
+        "wall": "south",
+        "position": 2.75,
+        "width": 1.15,
+        "hinge": "start",
+        "swing": "inward",
+        "confirmed": true
+      }
+    ],
+    "windows": [
+      {
+        "id": "window",
+        "wall": "north",
+        "position": 2,
+        "width": 1.8,
+        "height": 1.3,
+        "sillHeight": 0.85
+      }
+    ],
+    "fixedObstacles": []
+  },
+  "furniture": [
+    {
+      "id": "sofa",
+      "label": "Linen sofa",
+      "category": "sofa",
+      "width": 1.5,
+      "depth": 2.3,
+      "height": 0.85,
+      "x": 1.05,
+      "z": 2.35,
+      "rotation": 0,
+      "color": "#b8b6a3",
+      "movable": true,
+      "locked": false,
+      "provenance": "confirmed",
+      "evidencePhotoIds": []
+    },
+    {
+      "id": "coffee-table",
+      "label": "Coffee table",
+      "category": "table",
+      "width": 1.8,
+      "depth": 0.75,
+      "height": 0.43,
+      "x": 2.9,
+      "z": 2.55,
+      "rotation": 0,
+      "color": "#b78559",
+      "movable": true,
+      "locked": false,
+      "provenance": "confirmed",
+      "evidencePhotoIds": []
+    },
+    {
+      "id": "desk",
+      "label": "Writing desk",
+      "category": "desk",
+      "width": 1.8,
+      "depth": 0.75,
+      "height": 0.76,
+      "x": 4.65,
+      "z": 0.6,
+      "rotation": 0,
+      "color": "#b6a07e",
+      "movable": true,
+      "locked": false,
+      "provenance": "confirmed",
+      "evidencePhotoIds": []
+    },
+    {
+      "id": "desk-chair",
+      "label": "Desk chair",
+      "category": "chair",
+      "width": 0.55,
+      "depth": 0.55,
+      "height": 0.82,
+      "x": 4.65,
+      "z": 1.5,
+      "rotation": 0,
+      "color": "#59746e",
+      "movable": true,
+      "locked": false,
+      "provenance": "confirmed",
+      "evidencePhotoIds": []
+    },
+    {
+      "id": "shelf",
+      "label": "Low bookcase",
+      "category": "shelf",
+      "width": 1.8,
+      "depth": 0.55,
+      "height": 1.05,
+      "x": 4.9,
+      "z": 2.55,
+      "rotation": 0,
+      "color": "#997456",
+      "movable": false,
+      "locked": true,
+      "provenance": "confirmed",
+      "evidencePhotoIds": []
+    }
+  ],
+  "profile": {
+    "width": 0.75,
+    "margin": 0.05,
+    "uncertainty": 0.025,
+    "turningDiameter": null,
+    "units": "m"
+  },
+  "routes": [
+    {
+      "id": "desk-route",
+      "name": "Desk approach",
+      "required": true,
+      "destination": {
+        "x": 3.1,
+        "z": 1.2
+      },
+      "furnitureId": "desk",
+      "offset": {
+        "x": -1.55,
+        "z": 0.6
+      }
+    },
+    {
+      "id": "seating-route",
+      "name": "Seating approach",
+      "required": true,
+      "destination": {
+        "x": 2.45,
+        "z": 3.85
+      },
+      "furnitureId": "sofa",
+      "offset": {
+        "x": 1.4,
+        "z": 1.5
+      }
+    }
+  ],
+  "original": [
+    {
+      "id": "sofa",
+      "label": "Linen sofa",
+      "category": "sofa",
+      "width": 1.5,
+      "depth": 2.3,
+      "height": 0.85,
+      "x": 1.05,
+      "z": 2.35,
+      "rotation": 0,
+      "color": "#b8b6a3",
+      "movable": true,
+      "locked": false,
+      "provenance": "confirmed",
+      "evidencePhotoIds": []
+    },
+    {
+      "id": "coffee-table",
+      "label": "Coffee table",
+      "category": "table",
+      "width": 1.8,
+      "depth": 0.75,
+      "height": 0.43,
+      "x": 2.9,
+      "z": 2.55,
+      "rotation": 0,
+      "color": "#b78559",
+      "movable": true,
+      "locked": false,
+      "provenance": "confirmed",
+      "evidencePhotoIds": []
+    },
+    {
+      "id": "desk",
+      "label": "Writing desk",
+      "category": "desk",
+      "width": 1.8,
+      "depth": 0.75,
+      "height": 0.76,
+      "x": 4.65,
+      "z": 0.6,
+      "rotation": 0,
+      "color": "#b6a07e",
+      "movable": true,
+      "locked": false,
+      "provenance": "confirmed",
+      "evidencePhotoIds": []
+    },
+    {
+      "id": "desk-chair",
+      "label": "Desk chair",
+      "category": "chair",
+      "width": 0.55,
+      "depth": 0.55,
+      "height": 0.82,
+      "x": 4.65,
+      "z": 1.5,
+      "rotation": 0,
+      "color": "#59746e",
+      "movable": true,
+      "locked": false,
+      "provenance": "confirmed",
+      "evidencePhotoIds": []
+    },
+    {
+      "id": "shelf",
+      "label": "Low bookcase",
+      "category": "shelf",
+      "width": 1.8,
+      "depth": 0.55,
+      "height": 1.05,
+      "x": 4.9,
+      "z": 2.55,
+      "rotation": 0,
+      "color": "#997456",
+      "movable": false,
+      "locked": true,
+      "provenance": "confirmed",
+      "evidencePhotoIds": []
+    }
+  ],
+  "layouts": [],
+  "notes": [
+    "Bundled demonstration room. Measurements are confirmed fixture values, not a scan of a real home.",
+    "Move the coffee table to x 4.40 m, z 4.00 m to open the desk route. Set a dimension to estimated to demonstrate provisional feedback."
+  ]
+}
